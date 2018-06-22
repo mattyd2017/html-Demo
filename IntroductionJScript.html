@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Javascript and images</title>
+	<meta name ="Mats Html" content = "html">
+	<meta name="discription" content="to give a working website as an example of html">
+	<meta name="author" content="Matthew Daniels">
+	<meta http-equiv="Content-type"content="text/html;charset=UTF-8"> 
+	<link rel="stylesheet" href="css/MatsHtmlContent.css">
+	
+	
+</head>
+<body class = "image">		
+		<div class="navbar">
+			 <div class="dropdown">
+				<button class="dropbtn">Home<i class="fa fa-caret-down"></i>
+				</button>
+					<div class="dropdown-content">
+					  <a href="mats.html">Home</a>
+					  <a href="contact.html">Contact</a>
+					  <a href="#">Why this site</a>
+					</div>
+			</div> 
+			<div class="dropdown">
+				<button class="dropbtn">Basic html <i class="fa fa-caret-down"></i>
+				</button>
+					<div class="dropdown-content">
+						<a href="tags.html">Basic Tags</a>
+						<a href="tables.html">Basic tables</a>
+						<a href="styling.html">Styling</a>
+						<a href="video.html">Add a video</a>
+						
+					</div>
+			</div> 
+			<div class="dropdown">
+				<button class="dropbtn">Basic javascript<i class="fa fa-caret-down"></i>
+				</button>
+					<div class="dropdown-content">
+					<a href="basicJavaScriptFunctions.html">basic javaScript Functions</a>
+					<a href="basicAnimation.html">Basic Html Animations</a></a>
+					<a href="lightbox.html">slideshow and lightbox</a>
+					</div>
+			</div>
+			<div class="dropdown">
+				<button class="dropbtn">Javascript <i class="fa fa-caret-down"></i>
+				</button>
+					<div class="dropdown-content">
+					  <a href="#">Link 1</a>
+					  <a href="#">Link 2</a>
+					  <a href="#">Link 3</a>
+					</div>
+			</div> 
+			<div class="dropdown">
+				<button class="dropbtn">Responsive <i class="fa fa-caret-down"></i>
+				</button>
+					<div class="dropdown-content">
+					  <a href="#">Link 1</a>
+					  <a href="#">Link 2</a>
+					  <a href="#">Link 3</a>
+					</div>
+			</div> 
+			<div class="dropdown">
+				<button class="dropbtn">feedback<i class="fa fa-caret-down"></i>
+				</button>
+					<div class="dropdown-content">
+					  <a href="#">Link 1</a>
+					  <a href="#">Link 2</a>
+					  <a href="#">Link 3</a>
+					</div>
+			</div> 
+		</div>
+		
+		<img src="images/html5logo.png" title = "html5 logo" alt = "html5 logo" width = "1000" height = "300" border = "4" bordercolor = "blue" class = "logo">
+			<h1 style = "text-align:center">working with images using javascript</h1>
+			
+			<p>for this page as the journey into html continues this page shows more of what can be done with CSS and a javascript to display small images on the webpage as full screen images ie make them larger and more
+			viewable. This technique is know as modal images. this technique has been used for all the images on this site to demonstrate how the site can be improved by adding small features that add depth t  the site rather then 
+				just static html </p>
+			<h3>autumn in the lake district</h3>
+		<center>
+		<img id="lakes" src="images/lakes.jpg" alt="Autumn in the lake district" style="width:500px;max-width:1000px">
+		<div id="lakeimage" class="modal">
+			<span class="close">&times;</span>
+			<img class="modal-content" id="lakeside">
+			<div id="caption"></div>
+		</div>
+		</center>
+		<h4>click to see full size image</h4>
+		<p> this page uses a script from a seperate script file this made the page work better and gave greater clarity as the site was been developed</p>
+		<h3>Example of javaScript</h3>
+		<center>
+		<img id="script" src="images/script.png" alt="the script used to display full page images" style="width:500px;max-width:1000px">
+		<div id="scriptImg" class="modal">
+			<span class="closed">&times;</span>
+			<img class="modal-content" id="scripts">
+			<div id="captioned"></div>
+		</div>
+		</center>
+		<h4>click to see full size image</h4>
+		<p>these are only basic demonstrations of what you can do with images and javascript there are a lot more features and possibilities with javascript </p>
+		<script src="scripts/SiteScript.js"></script> 
+	</body>
+</html>

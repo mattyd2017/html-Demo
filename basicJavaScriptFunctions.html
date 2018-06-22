@@ -1,0 +1,96 @@
+<!doctype html>
+</html>
+<head>
+		<title>Mats Html Page</title>
+		<meta name ="Mats Html" content = "html">
+		<meta name="discription" content="to give a working website as an example of html">
+		<meta name="author" content="Matthew Daniels">
+		<meta http-equiv="Content-type"content="text/html;charset=UTF-8">
+		
+		<link rel="stylesheet" href="css/MatsHtmlContent.css">
+</head>
+<body>
+<div class="navbar">
+			 <div class="dropdown">
+				<button class="dropbtn">Home<i class="fa fa-caret-down"></i>
+				</button>
+					<div class="dropdown-content">
+					  <a href="contact.html">Contact</a>
+					  <a href="#">Why This Site</a>
+					</div>
+			</div> 
+			<div class="dropdown">
+				<button class="dropbtn">Basic Html <i class="fa fa-caret-down"></i>
+				</button>
+					<div class="dropdown-content">
+						<a href="tags.html">Basic Tags</a>
+						<a href="tables.html">Basic Tables</a>
+						<a href="styling.html">Styling</a>
+						<a href="video.html">Add a Video</a>
+						
+					</div>
+			</div> 
+			<div class="dropdown">
+				<button class="dropbtn">Basic Javascript<i class="fa fa-caret-down"></i>
+				</button>
+					<div class="dropdown-content">
+					  <a href="basicAnimation.html">Basic Html Animations</a>
+					  <a href="IntroductionJScript.html">Javascript Images</a> 
+					   <a href="lightbox.html">slideshow and lightbox</a>
+					</div>
+			</div>
+			<div class="dropdown">
+				<button class="dropbtn">Javascript <i class="fa fa-caret-down"></i>
+				</button>
+					<div class="dropdown-content">
+					  <a href="#">Link 1</a>
+					  <a href="#">Link 2</a>
+					  <a href="#">Link 3</a>
+					</div>
+			</div> 
+			
+		</div>
+		
+		<img src="images/html5logo.png" title = "html5 logo" alt = "html5 logo" width = "1000" height = "300" border = "4" bordercolor = "blue" class = "logo">
+		<h1 style = "text-align:center">A Journey into Html</h1>
+
+<h2>basic functions</h2>
+
+	<div class = "add">
+		<input type = "text" class = "adds" id="first">
+		</br>
+		<input type= "text" class = "adds" id="second">
+		</br>
+		<button onclick="add()"class = "addition">Add your numbers</button>
+	</div>
+	</br>
+	
+			<form>
+				<label><b>Enter a Message</b></label>
+				</br>
+				<input type="text" name="message" id="user_input">
+			</form>
+			<div style="text-align:center;">
+				<input type="submit" onclick="showInput();"value ="click here to display text from message box" align = "center"><br/>
+			</div>
+			<div style = "text-align:center">
+				<label>Message Box output: </label>
+			</div>
+			
+			<p class = "output"><span id='display'></span></p>
+	</br>
+	<p>
+	Above is a demonstration of how html forms work the form is a basic html form where the user can enter som text and by using a basic javaScriot script is able to post whats 
+	written in the form to a message output at the bottom of the form. Whilst this is a basic demo of html forms their are many other ways of using html forms and formatting that can be used.
+	this serves as an introduction to how html forms work and a basic introduction to javaScript and how it affects inputted text and how that is displayed.
+	</p>
+		
+	
+	
+		
+		
+
+
+<script src="scripts/functions.js"></script>
+</body>
+</html>

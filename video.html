@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Html Videos</title>
+	<meta name ="Mats Html" content = "html">
+	<meta name="discription" content="to give a working website as an example of html">
+	<meta name="author" content="Matthew Daniels">
+	<meta http-equiv="Content-type"content="text/html;charset=UTF-8"> 
+	<link rel="stylesheet" href="css/MatsHtmlContent.css">
+	
+</head>
+<body>	
+	<div class="navbar">
+		 <div class="dropdown">
+			<button class="dropbtn">Home<i class="fa fa-caret-down"></i>
+			</button>
+				<div class="dropdown-content">
+				  <a href="mats.html">Home</a>
+				  <a href="contact.html">Contact</a>
+				  <a href="#">Why this site</a>
+				</div>
+		</div> 
+		<div class="dropdown">
+			<button class="dropbtn">Basic html <i class="fa fa-caret-down"></i>
+			</button>
+				<div class="dropdown-content">
+					<a href="tags.html">Basic Tags</a>
+					<a href="tables.html">Basic tables</a>
+					<a href="styling.html">Styling</a>
+					
+					
+				</div>
+		</div> 
+		<div class="dropdown">
+			<button class="dropbtn">basic javascript<i class="fa fa-caret-down"></i>
+			</button>
+				<div class="dropdown-content">
+				  <a href="basicJavaScriptFunctions.html">basic javaScript Functions</a>
+				  <a href="basicAnimation.html">Basic Html Animations</a>
+				  <a href="IntroductionJScript.html">Javascript images</a>
+				   <a href="lightbox.html">slideshow and lightbox</a>
+				  <a href="#">Link 2</a>
+				  <a href="#">Link 3</a>
+				</div>
+		</div>
+		<div class="dropdown">
+			<button class="dropbtn">javascript <i class="fa fa-caret-down"></i>
+			</button>
+				<div class="dropdown-content">
+				  <a href="#">Link 1</a>
+				  <a href="#">Link 2</a>
+				  <a href="#">Link 3</a>
+				</div>
+		</div> 
+		<div class="dropdown">
+			<button class="dropbtn">Responsive <i class="fa fa-caret-down"></i>
+			</button>
+				<div class="dropdown-content">
+				  <a href="#">Link 1</a>
+				  <a href="#">Link 2</a>
+				  <a href="#">Link 3</a>
+				</div>
+		</div> 
+		<div class="dropdown">
+			<button class="dropbtn">feedback<i class="fa fa-caret-down"></i>
+			</button>
+				<div class="dropdown-content">
+				  <a href="#">Link 1</a>
+				  <a href="#">Link 2</a>
+				  <a href="#">Link 3</a>
+				</div>
+		</div> 
+	</div>
+	
+		<img src="images/html5logo.png" title = "html5 logo" alt = "html5 logo" width = "1000" height = "300" border = "4" bordercolor = "blue" class = "logo">
+		<h1 style = "text-align:center">Videos in html</h1>
+		</br>
+		<p>
+		In Html there are various ways to add videos to your webpage this can be done either as a video thats sourced from the webserver folder
+		so it works in the same way as images are. Most websites on their server will have the images and videos in a folder so they can be instantly retrieved.
+		This makes things slightly easier for the web developer to source his video content directly from the webserver.</br>
+		However the web developer may wish to source his videos directly from a website on this page i will give two examples of how this is done
+		by adding those features to this page.
+		</br>
+		<table style = "width:1000px" cellpadding = "5" cellspacing = "0" border = "3" bordercolor = "black" text-align = "center">
+			<tr>
+				<td><b>this is an embedded youtube video on html this is one way of displaying videos. this way works but sourcing content  
+				directly from youtube</b></td>
+				<td><iframe width="450" height="450" src="https://www.youtube.com/embed/KJ13lX20FqU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></td>
+			</tr>
+			<tr>
+				<td><video width="450" height="450" controls> <source src="videos/Learn HTML in 12 Minutes [720p].mp4" type="video/mp4"></video></td>
+				<td><b>this video is sourced straight from the folder in which this html site is saved to so that the video is sourced directly from the videos folder in the root of this site.
+			</tr>
+		</table>
+		</br>
+		</br>
+		<p>
+		below is an example of how the mark up would look for the video to be incorporated into our web page
+		</p>
+		<img src = "images/videocode.png" title = "code for placing a video" alt = "code for video image"width = "1000" height = "300" border = "4" bordercolor = "blue" class = "vidImage">
+	</body>
+</html>
